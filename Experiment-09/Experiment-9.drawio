@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.6 Chrome/140.0.7339.249 Electron/38.8.0 Safari/537.36" version="29.3.6">
   <diagram name="Page-1" id="FCycd7i7Kj4KPFHwJoKc">
-    <mxGraphModel dx="2695" dy="1625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2537" dy="1523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -212,9 +212,6 @@
             <mxPoint x="-90.09" y="2740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b3HQe4iItPejWAHVR6H--68" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Returns event" vertex="1">
-          <mxGeometry height="30" width="60" x="-116.09" y="2740" as="geometry" />
-        </mxCell>
         <mxCell id="b3HQe4iItPejWAHVR6H--74" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Booking service&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="-170.09" y="2940" as="geometry" />
         </mxCell>
@@ -282,6 +279,12 @@
               <mxPoint x="260.91" y="3020" />
               <mxPoint x="44.91" y="3020" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nA_t5IcSpX-lUEBbVtU5-17" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="329.90999999999985" y="2998.750000000001" as="sourcePoint" />
+            <mxPoint x="150" y="3288.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b3HQe4iItPejWAHVR6H--90" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" value="Seats locked /unlocking with&lt;div&gt;ttl&lt;/div&gt;" vertex="1">
@@ -380,7 +383,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xn-ZuFK0jsleMwiJs989-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Fetching data from the master slave redis" vertex="1">
+        <mxCell id="Xn-ZuFK0jsleMwiJs989-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Fetching and writing&amp;nbsp; data from the master&amp;nbsp; slave&amp;nbsp; redis" vertex="1">
           <mxGeometry height="30" width="60" x="769.91" y="2350" as="geometry" />
         </mxCell>
         <mxCell id="iGOCdZaF8u2Vkndv60Hg-15" edge="1" parent="1" source="Xn-ZuFK0jsleMwiJs989-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
@@ -483,6 +486,36 @@
         </mxCell>
         <mxCell id="qIBo-Nvqs__p_K9keRax-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;HLD&lt;/font&gt;&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="-408.09000000000003" y="2260" as="geometry" />
+        </mxCell>
+        <mxCell id="nA_t5IcSpX-lUEBbVtU5-12" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" value="" vertex="1">
+          <mxGeometry height="42" width="50" x="38.660000000000025" y="3450" as="geometry" />
+        </mxCell>
+        <mxCell id="nA_t5IcSpX-lUEBbVtU5-13" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" value="" vertex="1">
+          <mxGeometry height="42" width="50" x="213.91" y="3440" as="geometry" />
+        </mxCell>
+        <mxCell id="nA_t5IcSpX-lUEBbVtU5-18" edge="1" parent="1" source="nA_t5IcSpX-lUEBbVtU5-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nA_t5IcSpX-lUEBbVtU5-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nA_t5IcSpX-lUEBbVtU5-20" edge="1" parent="1" source="nA_t5IcSpX-lUEBbVtU5-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nA_t5IcSpX-lUEBbVtU5-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nA_t5IcSpX-lUEBbVtU5-14" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" value="" vertex="1">
+          <mxGeometry height="42" width="50" x="119.91" y="3290" as="geometry" />
+        </mxCell>
+        <mxCell id="nA_t5IcSpX-lUEBbVtU5-15" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" value="" vertex="1">
+          <mxGeometry height="42" width="50" x="119.91" y="3440" as="geometry" />
+        </mxCell>
+        <mxCell id="nA_t5IcSpX-lUEBbVtU5-19" edge="1" parent="1" source="nA_t5IcSpX-lUEBbVtU5-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.542;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;" target="nA_t5IcSpX-lUEBbVtU5-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nA_t5IcSpX-lUEBbVtU5-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="master master redis architecture pattern for heavy write operations" vertex="1">
+          <mxGeometry height="30" width="60" x="250" y="3332" as="geometry" />
+        </mxCell>
+        <mxCell id="nA_t5IcSpX-lUEBbVtU5-23" edge="1" parent="1" source="nA_t5IcSpX-lUEBbVtU5-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iGOCdZaF8u2Vkndv60Hg-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nA_t5IcSpX-lUEBbVtU5-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Quadry Database" vertex="1">
+          <mxGeometry height="30" width="120.09" x="-40.09" y="3234" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
